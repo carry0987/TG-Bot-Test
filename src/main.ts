@@ -13,7 +13,7 @@ async function logServiceInfo(app: INestApplication, port: number) {
 
     console.log(`\x1b[36m`);
     console.log(`============================================`);
-    console.log(`NestJS-Example is running on port ${port}`);
+    console.log(`TG-Bot-Test is running on port ${port}`);
     console.log(`============================================`);
     console.log(`Program Version: ${version}`);
     console.log(`Node Version: ${process.version}`);
