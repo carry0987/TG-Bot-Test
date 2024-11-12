@@ -25,7 +25,7 @@ export class UtilsService {
         statusCode: number,
         logMessage: string,
         clientMessage?: string,
-        error?: Error,
+        error?: Error
     ) {
         if (error) {
             console.error(logMessage, error);

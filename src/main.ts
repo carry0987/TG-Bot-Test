@@ -50,10 +50,10 @@ async function bootstrap() {
 
     // Handle shutdown signals
     process.on('SIGTERM', () =>
-        shutdownService.gracefulShutdown(server, 'SIGTERM'),
+        shutdownService.gracefulShutdown(server, 'SIGTERM')
     );
     process.on('SIGINT', () =>
-        shutdownService.gracefulShutdown(server, 'SIGINT'),
+        shutdownService.gracefulShutdown(server, 'SIGINT')
     );
 }
 
