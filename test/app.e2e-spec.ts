@@ -21,4 +21,9 @@ describe('AppController (e2e)', () => {
             .expect(200)
             .expect('Hello World!');
     });
+
+    afterAll(async () => {
+        // Ensure bot instance is closed
+        await app.close();
+    });
 });
